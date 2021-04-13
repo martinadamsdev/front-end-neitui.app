@@ -3,9 +3,11 @@
 </template>
 
 <script>
-export default {
-  name: "app-aside"
-}
+import {defineComponent} from 'vue'
+
+export default defineComponent({
+  name: 'app-aside'
+})
 </script>
 
 <style scoped>

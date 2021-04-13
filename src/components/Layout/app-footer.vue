@@ -1,13 +1,15 @@
 <template>
-  <footer>
+  <footer role="contentinfo">
 
   </footer>
 </template>
 
 <script>
-export default {
-  name: "app-footer"
-}
+import {defineComponent} from 'vue'
+
+export default defineComponent({
+  name: 'app-footer'
+})
 </script>
 
 <style scoped>

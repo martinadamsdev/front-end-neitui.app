@@ -13,7 +13,7 @@ import AppAside from '../components/Layout/app-aside.vue'
 import AppMain from '../components/Layout/app-main.vue'
 
 export default defineComponent({
-  name: "Home",
+  name: "Company",
   components:{
     AppHeader,
     AppFooter,

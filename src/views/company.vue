@@ -7,7 +7,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue"
-import AppHeader from '../components/Layout/app-header.vue'
+import AppHeader from '../components/Layout/app-header.tsx'
 import AppFooter from '../components/Layout/app-footer.vue'
 import AppAside from '../components/Layout/app-aside.vue'
 import AppMain from '../components/Layout/app-main.vue'

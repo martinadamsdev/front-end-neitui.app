@@ -1,6 +1,6 @@
-import {createWebHistory, createRouter} from 'vue-router'
+import {RouteRecordRaw, createWebHistory, createRouter} from 'vue-router'
 
-const routes = [
+const routes: RouteRecordRaw[] = [
 	{
 		path: '/',
 		name: '首页',

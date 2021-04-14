@@ -6,10 +6,12 @@ export default defineComponent({
 	name: 'app-aside',
 	setup() {
 		return () => (
-			<aside class="aside">
-				<slot name="aside">
-				</slot>
-			</aside>
+			<>
+				<aside class="aside">
+					<slot name="aside">
+					</slot>
+				</aside>
+			</>
 		)
 	}
 })

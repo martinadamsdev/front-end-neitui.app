@@ -12,16 +12,18 @@ const navs = router.options.routes.map(x =>
 )
 
 export default defineComponent({
-	name: 'app-header',
+	name: 'header',
 	setup() {
 		return () => (
-			<header role="banner" class="header">
-				<slot name="nav">
-					<nav role="navigation" class="nav">
-						{navs}
-					</nav>
-				</slot>
-			</header>
+			<>
+				<header role="banner" class="header">
+					<slot name="nav">
+						<nav role="navigation" class="nav">
+							{navs}
+						</nav>
+					</slot>
+				</header>
+			</>
 		)
 	}
 })
